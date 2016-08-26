@@ -64,7 +64,7 @@ public class SubItemFood extends SubItem implements IEdible {
         this.isWolfsFavoriteMeat = par4;
         this.saturationModifier = par3;
         this.eatTime = 32;
-        this.alwaysEdible = true;
+        this.alwaysEdible = true;  //Added this
     }
 
     public SubItemFood(MetaItem par1, int par2, boolean par3) {

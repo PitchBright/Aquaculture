@@ -29,12 +29,12 @@ public class AquacultureItems {
     public static final SubItem algae = new SubItemFood(metaLootItem, 2, 0, false).setUnlocalizedName("Algae").setTextureName("aquaculture:Algae").setCreativeTab(Aquaculture.tab);
 
     // Food
-    public static final SubItem whaleSteak = new SubItemFood(metaLootItem, 10, 0.8F, false).setUnlocalizedName("RawWhaleSteak").setTextureName("aquaculture:RawWhaleSteak").setCreativeTab(Aquaculture.tab);
+    public static final SubItem whaleSteak = new SubItemFood(metaLootItem, 4, 0.6F, false).setUnlocalizedName("RawWhaleSteak").setTextureName("aquaculture:RawWhaleSteak").setCreativeTab(Aquaculture.tab);
     public static final SubItem fishFillet = new SubItemFood(metaLootItem, 2, 0.3F, false).setUnlocalizedName("RawFishFillet").setTextureName("aquaculture:RawFishFillet").setCreativeTab(Aquaculture.tab);
     public static final SubItem cookedFillet = new SubItemFood(metaLootItem, 5, 0.6F, false).setUnlocalizedName("CookedFishFillet").setTextureName("aquaculture:CookedFishFillet").setCreativeTab(Aquaculture.tab);
     public static final SubItem cookedWhaleSteak = new SubItemFood(metaLootItem, 10, 0.8F, false).setUnlocalizedName("CookedWhaleSteak").setTextureName("aquaculture:CookedWhaleSteak").setCreativeTab(Aquaculture.tab);
     public static final SubItem whaleBurger = new SubItemFood(metaLootItem, 20, 0.8F, false).setUnlocalizedName("Whaleburger").setTextureName("aquaculture:Whaleburger").setCreativeTab(Aquaculture.tab);
-    public static final SubItem frogLegs = new SubItemFood(metaLootItem, 3, 0.6F, false).setUnlocalizedName("FrogLegs").setTextureName("aquaculture:FrogLegs").setCreativeTab(Aquaculture.tab);
+    public static final SubItem frogLegs = new SubItemFood(metaLootItem, 2, 0.3F, false).setUnlocalizedName("FrogLegs").setTextureName("aquaculture:FrogLegs").setCreativeTab(Aquaculture.tab);
     public static final SubItem cookedFrogLegs = new SubItemFood(metaLootItem, 3, 0.6F, false).setUnlocalizedName("CookedFrogLegs").setTextureName("aquaculture:CookedFrogLegs").setCreativeTab(Aquaculture.tab);
     public static final SubItem turtleSoup = new SubItemFood(metaLootItem, 6, 0.6F, false).setUnlocalizedName("TurtleSoup").setTextureName("aquaculture:TurtleSoup").setCreativeTab(Aquaculture.tab);
     public static final SubItem sushi = new SubItemFood(metaLootItem, 4, 0.6F, false).setUnlocalizedName("Sushi").setTextureName("aquaculture:Sushi").setCreativeTab(Aquaculture.tab);
