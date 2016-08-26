@@ -34,6 +34,11 @@ version = "4.0"
 group = "rebelkeithy.mods.aquaculture" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "Aquaculture"
 
+minecraft {
+    version = "1.7.10-10.13.4.1558-1.7.10"
+    runDir = "eclipse"
+}
+
 ext.configFile = file "build.properties"
 
 configFile.withReader {

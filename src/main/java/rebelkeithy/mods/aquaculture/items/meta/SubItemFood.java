@@ -1,8 +1,5 @@
 package rebelkeithy.mods.aquaculture.items.meta;
 
-import squeek.applecore.api.food.FoodValues;
-import squeek.applecore.api.food.IEdible;
-import squeek.applecore.api.food.ItemFoodProxy;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Optional.Interface;
 import cpw.mods.fml.common.Optional.Method;
@@ -11,6 +8,9 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
+import squeek.applecore.api.food.FoodValues;
+import squeek.applecore.api.food.IEdible;
+import squeek.applecore.api.food.ItemFoodProxy;
 
 @Interface(iface = "squeek.applecore.api.food.IEdible", modid = "AppleCore")
 public class SubItemFood extends SubItem implements IEdible {
@@ -64,6 +64,7 @@ public class SubItemFood extends SubItem implements IEdible {
         this.isWolfsFavoriteMeat = par4;
         this.saturationModifier = par3;
         this.eatTime = 32;
+        this.alwaysEdible = true;
     }
 
     public SubItemFood(MetaItem par1, int par2, boolean par3) {
